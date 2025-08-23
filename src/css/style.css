@@ -1,6 +1,7 @@
 html,
 body {
     box-sizing: border-box;
+    overflow-x: hidden;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -8,7 +9,7 @@ body {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
     background-color: #f4f4f4;
     color: #000000;
 }
@@ -119,22 +120,100 @@ main section .additional-text ul li {
     margin: 5px 0;
 }
 
-
 /* Parte que representa a tela About da página */
 main section p {
     line-height: 1.6;
 }
 
-main section .additional-brangs {
-    margin-top: 15px;
+main section .additional-brands {
+    margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    justify-content: start;
 }
 
-main section .additional-brangs span {
-    font-size: 1.5rem;
-    color: #000000;
-    transition: color 0.3s;
+/* Parte que representa a tela Skills da página */
+main section .additional-skills {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main section .additional-skills .group {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px #00000057;
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+main section .additional-skills .group button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main section .additional-skills .group button:hover {
+    background-color: #333333;
+}
+
+/* Parte que representa a tela Contact da página */
+main section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main section form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+main section form input,
+main section form textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+main section form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main section form button:hover {
+    background-color: #0056b3;
+}
+
+main section .additional-contact {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+main section .additional-contact p {
+    margin: 5px 0;
+}
+
+main section .additional-contact a {
+    color: #007bff;
+    text-decoration: none;
 }
