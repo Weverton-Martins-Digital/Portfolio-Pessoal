@@ -63,17 +63,25 @@ nav ul li a {
     color: #000000;
     display: flex;
     gap: 5px;
+}   
+
+/* Opções extras na navegação */
+nav .theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav button {
-    font-size: 1.5rem;
-    padding: 10px;
-    background: none;
+nav .theme-toggle button {
+    background-color: transparent;
     border: none;
     cursor: pointer;
-    display: none;
+    font-size: 1.5rem;
+    color: #000000;
+    transition: color 0.3s;
 }
 
+/* Estilos para o conteúdo principal */
 main {
     text-align: center;
     flex-direction: column;
