@@ -1,6 +1,6 @@
 # Portfólio Pessoal
 
-Este é o portfólio pessoal foi criado com o objetivo de apresentar sua habilidades, projetos e informações de contato. O design é focado em clareza e acessibilidade, utilizando apenas HTML e CSS.
+Este é o meu portfólio pessoal, o mesmo foi criado com o objetivo de apresentar minhas habilidades, projetos e informações de contato. O design é focado em clareza e acessibilidade, utilizando apenas HTML e CSS de forma simples.
 
 ## 🚀 Tecnologias Utilizadas
 
